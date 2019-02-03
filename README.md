@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
@@ -127,6 +128,9 @@ semua langkah-langkah dalam mengerjakan project ini sudah dijelaskan pada modul 
 
 
 
+=======
+# UAS__ECL_9
+>>>>>>> b81a111ac770acdfad343b47715a4fa6c37a6646
 =======
 # UAS__ECL_9
 >>>>>>> b81a111ac770acdfad343b47715a4fa6c37a6646
