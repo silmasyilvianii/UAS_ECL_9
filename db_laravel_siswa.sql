@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 03, 2019 at 12:59 AM
+-- Generation Time: Feb 06, 2019 at 06:29 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -64,7 +64,14 @@ CREATE TABLE `t_kelas` (
 INSERT INTO `t_kelas` (`id_kelas`, `nama_kelas`, `jurusan`, `created_at`, `updated_at`) VALUES
 (1, 'XII-RPL1', 'Rekayasa Perangkat Lunak', NULL, NULL),
 (2, 'XII-RPL2', 'Rekayasa Perangkat Lunak', NULL, NULL),
-(3, 'X TKJ-1', 'Teknik Komputer Jaringan', '2019-01-30 21:07:10', '2019-02-02 02:11:08');
+(3, 'X TKJ-1', 'Teknik Komputer Jaringan', '2019-01-30 21:07:10', '2019-02-02 02:11:08'),
+(4, 'X RPL-1', 'Rekayasa Perangkat Lunak', '2019-02-07 01:20:03', '2019-02-07 01:20:03'),
+(5, 'XI RPL-1', 'Rekayasa Perangkat Lunak', '2019-02-07 01:20:20', '2019-02-07 01:20:20'),
+(6, 'X AK-1', 'Akuntansi', '2019-02-07 01:20:55', '2019-02-07 01:20:55'),
+(7, 'XI -AK-1', 'Akuntansi', '2019-02-07 01:21:17', '2019-02-07 01:21:17'),
+(8, 'XII AK-1', 'Akuntansi', '2019-02-07 01:21:28', '2019-02-07 01:21:28'),
+(9, 'X MUL-1', 'Multimedia', '2019-02-07 01:21:46', '2019-02-07 01:21:46'),
+(10, 'XI MUL-1', 'Multimedia', '2019-02-07 01:22:06', '2019-02-07 01:22:06');
 
 -- --------------------------------------------------------
 
@@ -112,7 +119,12 @@ CREATE TABLE `t_siswa` (
 --
 
 INSERT INTO `t_siswa` (`nis`, `nama_lengkap`, `jenis_kelamin`, `alamat`, `no_telp`, `id_kelas`, `created_at`, `updated_at`, `foto`) VALUES
-(10515273, 'Silma Syilviani Nugraha', 'P', 'bdg', '085923231709', 2, '2019-02-02 02:10:17', '2019-02-02 02:10:17', '10515273.jpg');
+(123456, 'Silma Syilviani', 'P', 'BANDUNG', '085923231709', 7, '2019-02-07 01:23:25', '2019-02-07 01:27:53', '123456.jpg'),
+(656546, 'Lulu', 'P', 'bdg', '0876123616', 1, '2019-02-07 01:28:27', '2019-02-07 01:28:27', '656546.jpg'),
+(7656567, 'Lili', 'L', 'Bandung', '07615161', 4, '2019-02-07 01:26:36', '2019-02-07 01:26:36', '7656567.jpg'),
+(10515273, 'Silma Syilviani Nugraha', 'P', 'bdg', '085923231709', 2, '2019-02-02 02:10:17', '2019-02-02 02:10:17', '10515273.jpg'),
+(12342343, 'Lany', 'L', 'bdg', '037832424', 8, '2019-02-07 01:24:46', '2019-02-07 01:24:46', '12342343.jpg'),
+(35133324, 'Lala', 'P', 'bdg', '08171637271', 9, '2019-02-07 01:26:02', '2019-02-07 01:26:02', '35133324.jpg');
 
 --
 -- Indexes for dumped tables
@@ -156,7 +168,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `t_kelas`
 --
 ALTER TABLE `t_kelas`
-  MODIFY `id_kelas` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_kelas` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `t_login`
